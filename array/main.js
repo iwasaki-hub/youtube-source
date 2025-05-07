@@ -193,7 +193,6 @@ const sort_reverse_key_value = () => {
 // sort_reverse_key_value();
 
 const concat_join_toString = () => {
-
   // それでは、最後のセクションです。
   // 次のあたらしい配列を５つ準備します。
   // new Array
@@ -221,7 +220,8 @@ const concat_join_toString = () => {
 
   // toString
   // toString()は、配列の要素を表す文字列を返します。
-  console.log("toString: ", num1.toString());
+  const toStr = num1.toString();
+  console.log("toString: ", toStr);
 
   // toLocalString
   // toLocalString()は、配列の要素は、ローカル固有の文字列に変換されます。
@@ -238,5 +238,5 @@ const concat_join_toString = () => {
 /*
 これで、今日のチューとリアを終わります。
 この動画が役に立ったら、いいねとチャンネル登録してくれるとめ嬉しいです
-それじゃあ、次のレッスンでまた会おうね
+それじゃあ、次の動画でまた会おうね
 */
